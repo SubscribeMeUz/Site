@@ -3592,7 +3592,7 @@ section,
 
 .underline {
     margin: 0 auto;
-    width: 150px;
+    width: 120px;
     height: 4px;
     background: linear-gradient(to right, #a6ff00, transparent);
     border-radius: 2px;

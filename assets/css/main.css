@@ -1678,6 +1678,10 @@ section,
   padding: 60px 40px;
   height: 100%;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .pricing h3 {
@@ -3596,4 +3600,17 @@ section,
     height: 4px;
     background: linear-gradient(to right, #a6ff00, transparent);
     border-radius: 2px;
+}
+.overlay {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.6;
+}
+
+.overlay h1{
+  font-size: 150px;
+  line-height: 0;
 }
